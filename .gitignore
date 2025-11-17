@@ -1,0 +1,40 @@
+# Зависимости
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Покрытие тестами
+coverage/
+*.lcov
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Логи
+logs/
+*.log
+
+# Environment файлы
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build файлы
+dist/
+build/
+

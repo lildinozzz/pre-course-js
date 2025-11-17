@@ -1,0 +1,10 @@
+{
+  "template": "node",
+  "container": {
+    "node": "18"
+  },
+  "infiniteLoopProtection": true,
+  "hardReloadOnChange": false,
+  "view": "browser"
+}
+
