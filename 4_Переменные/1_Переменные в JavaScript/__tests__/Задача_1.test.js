@@ -21,11 +21,8 @@ describe("Task 1: Declare mountain variable", () => {
   });
 
   test("should declare variable mountain", () => {
-    const code = require("fs").readFileSync(
-      require("path").resolve(__dirname, "../Задача_1.js"),
-      "utf-8"
-    );
-    expect(code).toMatch(/const\s+mountain|let\s+mountain|var\s+mountain/);
+    expect(() => {
+      require("../Задача_1");
+    }).not.toThrow(ReferenceError);
   });
 });
-

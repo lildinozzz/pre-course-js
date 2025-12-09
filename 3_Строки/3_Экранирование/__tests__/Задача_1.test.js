@@ -12,7 +12,7 @@ describe("Task 1: Escaping quotes and backslashes", () => {
   test("should print text with quotes and backslashes in one console.log", () => {
     require("../Задача_1.js");
 
-    const expectedText = `Она спросила: "В какой папке лежит проект?" Он ответил: "В папке 'C:\\Users\\Elbrus\\MyProject'"`;
+    const expectedText = `Она спросила: "В какой папке лежит проект?"\nОн ответил: "В папке 'C:\\Users\\Elbrus\\MyProject'"`;
 
     expect(consoleLogSpy).toHaveBeenCalledTimes(1);
     expect(consoleLogSpy).toHaveBeenCalledWith(expectedText);
