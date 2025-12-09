@@ -1,16 +1,16 @@
 describe("Task 1: Addition vs concatenation", () => {
   let consoleLogSpy;
 
-  beforeEach(() => {
+  beforeAll(() => {
     consoleLogSpy = jest.spyOn(console, "log").mockImplementation();
+    require("../Задача_1.js");
   });
 
-  afterEach(() => {
+  afterAll(() => {
     consoleLogSpy.mockRestore();
   });
 
   test("should print sum of numbers 10 and 20", () => {
-    require("../Задача_1.js");
     expect(consoleLogSpy).toHaveBeenNthCalledWith(1, 30);
   });
 
