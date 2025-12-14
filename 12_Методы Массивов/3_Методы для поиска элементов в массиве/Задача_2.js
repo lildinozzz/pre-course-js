@@ -1,0 +1,3 @@
+function findFirstNumberBetween(numbers, start, end) {
+  // ваш код здесь...
+}

@@ -1,0 +1,3 @@
+function isAnagram() {
+  // ваш код здесь...
+}

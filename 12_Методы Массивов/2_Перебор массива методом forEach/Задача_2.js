@@ -1,0 +1,3 @@
+function scream(strings) {
+  // ваш код здесь...
+}

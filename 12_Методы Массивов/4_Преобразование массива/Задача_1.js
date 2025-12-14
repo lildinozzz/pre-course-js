@@ -1,0 +1,3 @@
+function positiveSquares() {
+  // ваш код здесь...
+}

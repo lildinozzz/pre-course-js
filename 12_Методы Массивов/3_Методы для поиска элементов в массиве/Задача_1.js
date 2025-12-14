@@ -1,0 +1,3 @@
+function areAllPositive(numbers) {
+  // ваш код здесь...
+}
